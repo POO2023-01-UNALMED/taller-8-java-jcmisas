@@ -44,7 +44,7 @@ public abstract class Futbolista implements Comparable<Object>{
     }
 
     public boolean equals(Futbolista f){
-        return posicion.equals(f.getPosicion());
+        return this==f;
     }
 
     public abstract boolean jugarConLasManos();
